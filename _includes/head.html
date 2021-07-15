@@ -37,6 +37,9 @@
   <link href="/assets/css/homepage.css" rel="stylesheet">
   {% else %}
   <link href="/assets/css/page.css" rel="stylesheet">
+    {% if page.title == 'About' %}
+      <link href="/assets/css/about.css" rel="stylesheet">
+    {% endif %}
   {% endif %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
