@@ -20,6 +20,9 @@
           {% for team-member in site.team-members %}
             {% assign remainder = forloop.index | modulo:3%}
             {% assign member_first_name = team-member.name | downcase | split: " "  | first %}
+            {% if member_first_name == 'chinari'%}
+              {% assign member_first_name = 'subhechha'%}
+            {% endif %}
             {% if remainder == 1 or forloop.index == 1%}
               <div class="row">
             {% endif %}
