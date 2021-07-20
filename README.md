@@ -1,7 +1,5 @@
 # TruCol
 
-[![Build Status](https://github.com/trucol/trucol.github.io/workflows/tests/badge.svg?branch=master)](https://github.com/trucol/trucol.gihub.io/actions) -->
-
 
 ## Contributing
 
