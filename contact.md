@@ -3,7 +3,11 @@ layout: about
 title: Contact
 description: Get in touch with the TruCol protocol.
 ---
+## Email
 
+You can reach the team through email at [trucol@protonmail.com](mailto://trucol@protonmail.com)
+We'll never share your personal info with anyone else without your explicit permission.
+<!-- 
 <form name="contact" method="POST" netlify>
   <div class="form-group">
     <label for="email"><h5 class="no-anchor">Email address</h5></label>
@@ -15,4 +19,4 @@ description: Get in touch with the TruCol protocol.
     <textarea class="form-control form-control-lg" name="message" id="message" rows="3" style="height:200px;"></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+</form> -->
