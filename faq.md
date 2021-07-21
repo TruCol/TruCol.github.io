@@ -8,6 +8,22 @@ last_modified_at: 2020-02-22
 
 # Frequently Asked Questions (FAQ)
 
+
+### I've solved a bounty, how do I get my money?
+Instantly! The protocol is set up in such a way that if you solve the problem by completing the contract, you become the target of the contract and the contract is fulfilled.
+
+### Can I test my solution before posting it?
+Yes! As the contracts are open source you can simply run the available code to verify your code locally before pushing your solution to the blockchain.
+
+
+### How much does it cost to run a contract?
+
+The costs of the contract depend on what the contract does. A minimum of approximately $50,- can currently be expected. We expect that the contract costs will go down in the future with ETH 2.0 thanks to staking and/or sharding. Furthermore, to reduce evaluation costs, one could opt to sacrifice some decentralisation through the use of an oracle service with (decentralised) CIs.
+
+### What do I need to get started?
+
+Select one of your tasks that can be verified objectively by a computer and determine how much you are willing spend on the solution. For example, "give me a flight-crew planning that minimizes the costs", then specify what the requirements for the solution must be, the write a smart-contract that tests those requirements and publish it on chain. When someone posts a solution, they will get the bounty and you can get their solution.
+
 ### So what happens if someone wants to ask "can you make my website look good" as a task?
 
 Such problems are currently not well suited to be solved for the presented protocol. Currently only well defined tasks are possible. With well defined we mean tasks that have a determinisitic and verifiable answer for any given input. The most optimal usecase for this protocol currently consists of problems in NP. This is because there oftern are polynomial time approximations (referred to as heuristics) for non-polynomial problems. A typical bounty could be: "Solve a TSP instance (that has a certain property, e.g. for fully connected networks in O(n^1.27) time). This could then be enforced by limiting the maximum allowed gas that the solution of the bounty contract is allowed to consume whilst still getting the bonus. (Or more harshly, gas costs could subtract from the bounty, untill no bounty is awarded if the solution requires too much computational budget/gas). 
