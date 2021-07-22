@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: default
 title: Contact
 description: Get in touch with the TruCol protocol.
 ---

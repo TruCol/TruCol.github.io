@@ -39,18 +39,3 @@ TestRefund:
 - Click on the AskContract and try to get the refund, when it is past your timestamp it should self-destruct otherwise it should not work
 
 Note that only the owner of the contract (which is the person who either created or solved the contract) can activate the refund function.
-
-
-<!-- {% include_relative _getting-started/what-is-markdown.md %}
-
-{% include_relative _getting-started/why-use-markdown.md %}
-
-{% include_relative _getting-started/kicking-the-tires.md %}
-
-{% include_relative _getting-started/how-does-it-work.md %}
-
-{% include_relative _getting-started/whats-markdown-good-for.md %}
-
-{% include_relative _getting-started/flavors-of-markdown.md %}
-
-{% include_relative _getting-started/additional-resources.md %} -->
