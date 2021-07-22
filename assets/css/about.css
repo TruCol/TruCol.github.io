@@ -1,0 +1,11 @@
+.profile-image {
+  width:50%;
+  border-radius:15rem;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.text-positioning {
+  text-align:center;
+}

@@ -11,11 +11,17 @@ plugins:
   - jekyll/imgix
 
 collections:
-  basic-syntax:
-  extended-syntax:
   tools:
     output: true
     permalink: /tools/:title/
+  team-members:
+    order:
+      - victoria.md
+      - eric.md
+      - akke.md
+      - marc.md
+      - subhechha.md
+      - chihab.md
 
 defaults:
   - scope:

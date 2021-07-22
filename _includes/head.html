@@ -24,19 +24,20 @@
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:title" content="{% if page.title == 'Home' %}The TruCol Protocol{% else %}{{ page.title }} |The TruCol Protocol{% endif %}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %} A free and open-source reference guide that explains how to use Markdown.{% endif %}" />
-  <meta property="og:image" content="https://www.markdownguide.org/assets/images/markdown-guide-og.jpg" />
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
 
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/bootstrap-toc.min.css">
-  <link rel="stylesheet" href="/assets/css/docsearch.min.css">
 
   {% if page.title == 'Home' or page.title == '404 Not Found' %}
   <link href="/assets/css/homepage.css" rel="stylesheet">
   {% else %}
   <link href="/assets/css/page.css" rel="stylesheet">
+    {% if page.title == 'About' %}
+      <link href="/assets/css/about.css" rel="stylesheet">
+    {% endif %}
   {% endif %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

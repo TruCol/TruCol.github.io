@@ -1,7 +1,5 @@
 # TruCol
 
-[![Build Status](https://github.com/trucol/trucol.github.io/workflows/tests/badge.svg?branch=master)](https://github.com/trucol/trucol.gihub.io/actions) -->
-
 
 ## Contributing
 
@@ -9,7 +7,7 @@ Contributions are welcome. Feel free to open a pull request with changes.
 
 ### Run Website Locally - Instructions
 
-It can be helpful to preview changes on your computer before opening a pull request. *The Markdown Guide* uses the [Jekyll static site generator](http://jekyllrb.com/). After forking or cloning the repository, perform the following steps to generate the site and preview it:
+It can be helpful to preview changes on your computer before opening a pull request. *The TruCol Site* uses the [Jekyll static site generator](http://jekyllrb.com/). After forking or cloning the repository, perform the following steps to generate the site and preview it:
 
 - Make sure you have ruby installed on your computer. See https://www.ruby-lang.org/en/downloads/
 - `bundle install`
