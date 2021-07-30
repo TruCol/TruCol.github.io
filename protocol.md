@@ -1,147 +1,30 @@
 ---
 layout: default
-title: The Protocol
-description: A quick 
+title: The TruCol Protocol
+description: A concise overview of the TruCol protocol.  ## Add some description info
 last_modified_at: 2020-07-31
 ---
 
-## Overview
+## TruCol in a Nutshell
 
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](/basic-syntax) and [extended syntax](/extended-syntax).
+The TruCol protocol presents an improvement of market efficiency and developer autonomy by decentralisation and automation of test-driven development. The protocol promotes inclusive, fair and accessible work, by
+enabling developers to participate in the market regardless of their circumstances. Employers publish a smart contract with a bounty for deterministically verifiable development tasks which are fit for solving by external parties. Developers from all over the world are able to complete these tasks and get rewarded automatically when the requirement of the smart contract is fulfilled. The protocol thus removes the middleman and costly fees, and stimulates an open and fair development market.
 
-## Basic Syntax
 
-These are the elements outlined in John Gruber's original design document. All Markdown applications support these elements.
+## Problem statement and solution
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown Syntax</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="/basic-syntax/#headings">Heading</a></td>
-      <td><code># H1<br>
-          ## H2<br>
-          ### H3</code></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#bold">Bold</a></td>
-      <td><code>**bold text**</code></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#italic">Italic</a></td>
-      <td><code>*italicized text*</code></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#blockquotes-1">Blockquote</a></td>
-      <td><code>> blockquote</code></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#ordered-lists">Ordered List</a></td>
-      <td><code>
-        1. First item<br>
-        2. Second item<br>
-        3. Third item<br>
-      </code></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#unordered-lists">Unordered List</a></td>
-      <td>
-        <code>
-          - First item<br>
-          - Second item<br>
-          - Third item<br>
-        </code>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#code">Code</a></td>
-      <td><code>`code`</code></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rule</a></td>
-      <td><code>---</code></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#links">Link</a></td>
-      <td><code>[title](https://www.example.com)</code></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#images-1">Image</a></td>
-      <td><code>![alt text](image.jpg)</code></td>
-    </tr>
-  </tbody>
-</table>
+Traditional bounty-based platforms require a modicum of trust and an often costly middle-person. For the market of deterministically verifiable test-driven development tasks, decentralisation eliminates the necessity for trust and a costly platform that mediates the collaboration. This reduces the transaction costs of such tasks. Additionally, it enables anyone in the world to participate, as long as they have access to the test specifications.
+This means hiring bias is eliminated for these tasks, and the thresholds to getting work are reduced. To illustrate, the traditional solution requires companies to do some promotion to attract intelligence that is able to solve
+their tasks. Next, an employee has to apply. Then the employer needs to filter the applications to find a suitable candidate. If a match is made, the two can reach a work agreement. They then have to trust each other to live up to their promises and disputes can be settled through law and regulation. All these activities can be omitted when using the TruCol protocol for deterministically verifiable tasks, such algorithmic optimisations of heuristics of NP-hard problems and applications of artificial intelligence.
 
-## Extended Syntax
 
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+## Advantages and disadvantages
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown Syntax</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="/extended-syntax/#tables">Table</a></td>
-      <td><code>
-          | Syntax      | Description |<br>
-          | ----------- | ----------- |<br>
-          | Header      | Title       |<br>
-          | Paragraph   | Text        |
-      </code></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Block</a></td>
-      <td><code>```<br>
-      {<br>
-      &nbsp;&nbsp;"firstName": "John",<br>
-      &nbsp;&nbsp;"lastName": "Smith",<br>
-      &nbsp;&nbsp;"age": 25<br>
-      }<br>
-      ```
-      </code></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#footnotes">Footnote</a></td>
-      <td><code>
-        Here's a sentence with a footnote. [^1]<br><br>
+By providing a protocol instead of a service, we empower the users financially whilst increasing their autonomy by removing the need to rely on an over-arching bounty platform that takes money from the work of users. Sharing a completely open and deterministic payout protocol removes bias from the hiring process. We believe the early-adopters on the employer side of the protocol can gain knowledge and experience that may give them a tactical advantage in the domain of requirement specification for AI engines like GPT-3. It can be difficult to identify which development processes in a company are suitable to offload into the TruCol protocol. It can be difficult to write air-tight test specifications in sponsor contracts. We intend to work as a consultancy to assist companies in successfully navigating these challenges to help them get the most out of the TruCol protocol.
 
-        [^1]: This is the footnote.
-      </code></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#heading-ids">Heading ID</a></td>
-      <td><code>### My Great Heading {#custom-id}</code></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#definition-lists">Definition List</a></td>
-      <td><code>
-        term<br>
-        : definition
-      </code></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
-      <td><code>~~The world is flat.~~</code></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#task-lists">Task List</a></td>
-      <td><code>
-        - [x] Write the press release<br>
-        - [ ] Update the website<br>
-        - [ ] Contact the media
-      </code></td>
-    </tr>
-  </tbody>
-</table>
+## Implementation
 
-## Downloads
+The protocol can be implemented on smart contracts of various chains, such as Ethereum. The employer can determine their desired level of decentralization by choosing whether they want to publish the test specification completely decentralized on-chain, or make use of GitHub, continuous integration and oracles to verify the completion of the task.
 
-You can <a href="/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">download this cheat sheet as a Markdown file</a> for use in your Markdown application.
+## TruCol Enthousiasts
+Are you intruiged by the TruCol protocol and would you like to read more. Do not worry, we got you. The [white paper](#) is online and contains all information you need. Or are you done with reading and would you like to tinker around with what TruCol has to offer, for information on getting started see [the getting started section](/getting-started) or check out the [TruCol github repository](https://github.com/TruCol/TruCol)

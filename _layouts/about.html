@@ -12,17 +12,31 @@
     </div>
     <div class="container">
       <div class="row row-offcanvas row-offcanvas-right">
-        <div class="col-xs-12 col-sm-9">
+        <div class="col-xs-12 col-sm-12">
           {{ content }}
         </div>
-        <div class="col-xs-6 col-sm-3 hidden-xs" id="sidebar">
-          <div class="card" style="margin-top: 30px">
-            <h6 class="card-header no-anchor" data-toc-skip>Stay Informed</h6>
-            <div class="card-body">
-              <p class="card-text" style="font-size: 15px; font-weight: 400">
-                <a href="https://tinyletter.com/markdownguide">Subscribe via email</a> to get priority notifications about the <em>TruCol Protocol</em>.</p>
+      </div>
+
+          {% for team-member in site.team-members %}
+            {% assign remainder = forloop.index | modulo:3%}
+            {% assign member_first_name = team-member.name | downcase | split: " "  | first %}
+            {% if member_first_name == 'chinari'%}
+              {% assign member_first_name = 'subhechha'%}
+            {% endif %}
+            {% if remainder == 1 or forloop.index == 1%}
+              <div class="row">
+            {% endif %}
+            <div class="col-xs-12 col-sm-4">
+              <img src="../assets//images/team/{{member_first_name}}.png" class="card-img-top profile-image" alt="...">
+              <h2 class="text-positioning no-anchor">{{ team-member.name }} </h2> 
+              <h3 class="text-positioning no-anchor">{{ team-member.position }}</h3>
+              <p class="text-positioning">{{ team-member.content | markdownify | remove: '<p>' | remove: '</p>'}}</p> <!-- p tags are automatically added and need to be removed-->
             </div>
-          </div>
+            {% if remainder == 0 %}
+               </div>
+            {% endif %}
+
+          {% endfor %}
         </div>
       </div>
     </div>
