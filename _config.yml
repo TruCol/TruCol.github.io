@@ -22,6 +22,7 @@ collections:
       - marc.md
       - subhechha.md
       - chihab.md
+      - rashim.md
 
 defaults:
   - scope:
