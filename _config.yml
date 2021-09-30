@@ -23,6 +23,7 @@ collections:
       - subhechha.md
       - chihab.md
       - rashim.md
+      - clara.md
 
 defaults:
   - scope:
