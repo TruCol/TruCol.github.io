@@ -1,6 +1,6 @@
 ---
 name: Chinari Subhechha Subudhi
-position: developer
+position: Developer
 education: TU Delft MSc Aerospace Engineering (Space Exploration)
 ---
 
