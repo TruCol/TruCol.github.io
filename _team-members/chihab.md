@@ -1,6 +1,6 @@
 ---
 name: Chihab Amghane
-position: developer #TODO: need to think of something more interesting
+position: Developer
 education: Radboud University MSc Artificial Intelligence (Intelligent Technology)
 ---
 
