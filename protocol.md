@@ -26,5 +26,8 @@ By providing a protocol instead of a service, we empower the users financially w
 
 The protocol can be implemented on smart contracts of various chains, such as Ethereum. The employer can determine their desired level of decentralization by choosing whether they want to publish the test specification completely decentralized on-chain, or make use of GitHub, continuous integration and oracles to verify the completion of the task.
 
-## TruCol Enthousiasts
-Are you intruiged by the TruCol protocol and would you like to read more. Do not worry, we got you. The [white paper](#) is online and contains all information you need. Or are you done with reading and would you like to tinker around with what TruCol has to offer, for information on getting started see [the getting started section](/getting-started) or check out the [TruCol github repository](https://github.com/TruCol/TruCol)
+## Whitepaper
+We are intending on submitting our whitepaper to a scientific peer reviewed conference. If you would like to pre-read the whitepaper, please contact us and we'll email you the pdf.
+
+## Status
+Currently, we have a [MWE of the TruCol protocol in Solidity-Solidity format](https://github.com/TruCol/TruCol) using Chainlinks verifiable random function to prevent hardcoding. Our biggest bottleneck right now is in automatically deploying a [self-hosting docker/virtualmachine (instead of shell) GitLab CI](https://github.com/TruCol/Self-host-GitLab-CI-for-GitHub/issues/100). If you happen to have some bash skills, feel free to improve [our GitLab-CI deployment script](https://github.com/TruCol/Self-host-GitLab-CI-for-GitHub).
