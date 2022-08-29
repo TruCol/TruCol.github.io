@@ -5,8 +5,10 @@ description: "A cyber-security variant of the TruCol protocol"
 ---
 The TruSec protocol allows companies to hedge against hacks such as ransomware attacks and data leaks. It has been [presented](https://www.blackhat.com/us-22/briefings/schedule/index.html#eliminating-triage-intermediaries-for-zero-day-exploits-using-a-decentralised-payout-protocol-26619) at Black Hat USA 2022 in Las Vegas, along with [our whitepaper](https://github.com/TruSec/TruSec-whitepaper/blob/main/whitepaper.pdf). Watch our talk below:
 
-<video id="trusec_vid" class="video-js vjs-default-skin" width="640" src="/assets/videos/TruSec.mp4" type='video/mp4' controls autoplay>
-</video>
+<!-- <video id="trusec_vid" class="video-js vjs-default-skin" width="640" src="/assets/videos/TruSec.mp4" type='video/mp4' controls autoplay> </video> -->
+
+
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/744358183?h=5b8f77c8b7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TruSec protocol"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 # Example
