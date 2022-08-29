@@ -7,6 +7,11 @@ description: "A cyber-security variant of the TruCol protocol"
 The TruSec protocol will be [presented 2022-08-10 at 14:30 PDT](https://www.blackhat.com/us-22/briefings/schedule/index.html#eliminating-triage-intermediaries-for-zero-day-exploits-using-a-decentralised-payout-protocol-26619) on Black Hat USA 2022 in Las Vegas, along with our whitepaper.
 
 
+
+<video id="trusec_vid" class="video-js vjs-default-skin" width="640" height="264" src="/assets/videos/TruSec.mp4" type='video/mp4'>
+</video>
+
+
 # Example
 
 Suppose you want to hedge against ransomware attacks that leverage zero-day exploits. These days ransomware insurances are hard to come by, so instead, you can insentivise the hackers to take the white-hat route, using collective staking. Push your open source software stack into a decentralised virtual machine (DVM), set a responsible disclosure time, vulnerability type (E.g. if the hacker gets write-access, they earn $100.000) specify how long the stake remains retrievable, and put a stake on it being secure. Now you can show your customers how secure your software is against zero-day exploits, and hackers can hack your software stake whilst getting an immediate payout if they succeed. 
