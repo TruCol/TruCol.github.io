@@ -8,7 +8,7 @@ The TruSec protocol will be [presented 2022-08-10 at 14:30 PDT](https://www.blac
 
 
 
-<video id="trusec_vid" class="video-js vjs-default-skin" width="640" height="264" src="/assets/videos/TruSec.mp4" type='video/mp4'>
+<video id="trusec_vid" class="video-js vjs-default-skin" width="640" src="/assets/videos/TruSec.mp4" type='video/mp4' controls autoplay>
 </video>
 
 
