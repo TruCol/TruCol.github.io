@@ -29,7 +29,7 @@ git clone git@github.com:TruCol/TruCol.github.io.git
 cd TruCol.github.io
 bundle config set --local path 'vendor/bundle'
 bundle install
-
+```
 
 
 On Ubuntu 20.04 and lower:
@@ -46,6 +46,7 @@ cd TruCol.github.io
 bundle install
 ```
 # Run the website locally with:
+```
 bundle exec jekyll serve
 ```
 
