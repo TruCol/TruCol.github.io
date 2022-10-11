@@ -15,6 +15,24 @@ It can be helpful to preview changes on your computer before opening a pull requ
 - Browse to: http://127.0.0.1:4000/
 
 ### Run Website Locally - Ubuntu Commands
+On Ubuntu 22.04 and higher:
+```
+yes | sudo apt install gnupg2
+gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+\curl -sSL https://get.rvm.io | bash -s stable
+rvm pkg install openssl
+rvm reinstall 2.7.6 --with-openssl-dir=/home/$(whoami)/.rvm/usr
+\curl -sSL https://get.rvm.io | bash -s stable --rails
+yes | sudo apt  install ruby-bundler
+yes | sudo apt install ruby-dev
+git clone git@github.com:TruCol/TruCol.github.io.git
+cd TruCol.github.io
+bundle config set --local path 'vendor/bundle'
+bundle install
+
+
+
+On Ubuntu 20.04 and lower:
 ```
 # Source: https://rvm.io/
 yes | sudo apt install gnupg2
@@ -26,7 +44,7 @@ yes | sudo apt install ruby-dev
 git clone git@github.com:TruCol/TruCol.github.io.git
 cd TruCol.github.io
 bundle install
-
+```
 # Run the website locally with:
 bundle exec jekyll serve
 ```
