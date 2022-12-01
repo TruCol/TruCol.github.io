@@ -1,5 +1,5 @@
 ---
-name: Clara Main
+name: Clara Maine
 position: Developer
 education: Radboud University, BSc. Artificial Intelligence
 ---
